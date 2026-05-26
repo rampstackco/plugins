@@ -1,0 +1,31 @@
+{
+  "name": "rampstack",
+  "owner": {
+    "name": "RampStack",
+    "email": "security@rampstack.co"
+  },
+  "description": "Curated subsets of the RampStack Claude Skills catalog, installable as Claude Code plugins.",
+  "plugins": [
+    {
+      "name": "rampstack-starter",
+      "source": { "source": "github", "repo": "rampstackco/claude-skills-starter" },
+      "description": "Curated starter subset of the RampStack catalog: a general-purpose skill set for the website lifecycle.",
+      "category": "web-development",
+      "keywords": ["agent-skills", "claude-skills", "starter", "web-development"]
+    },
+    {
+      "name": "rampstack-seo",
+      "source": { "source": "github", "repo": "rampstackco/claude-skills-seo" },
+      "description": "Focused SEO skills: keyword research, on-page and technical audits, AI-search optimization, traffic diagnosis, site-health triage, competitor and content audits, and programmatic SEO, with content companions. Some skills (deep-audit workflows) assume the Ahrefs MCP is connected.",
+      "category": "seo",
+      "keywords": ["agent-skills", "claude-skills", "seo", "aeo", "geo"]
+    },
+    {
+      "name": "rampstack-pm",
+      "source": { "source": "github", "repo": "rampstackco/claude-skills-pm" },
+      "description": "Focused product management skills across the lifecycle: discovery, roadmaps and OKRs, PRDs, stakeholder communication, launch and beta programs, and measurement.",
+      "category": "product-management",
+      "keywords": ["agent-skills", "claude-skills", "product-management", "experimentation"]
+    }
+  ]
+}
