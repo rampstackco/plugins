@@ -36,7 +36,7 @@ The plugin source repos do contain an author-time social-card generation script 
 
 ## Catalog
 
-This marketplace lists curated subsets. The full RampStack skill catalog (101 skills, the source of truth for all skill content) lives at [rampstackco/claude-skills](https://github.com/rampstackco/claude-skills). The starter, SEO, and PM plugins are subsets of that catalog with no modifications to skill content.
+This marketplace lists curated subsets. The full RampStack skill catalog (102 skills, the source of truth for all skill content) lives at [rampstackco/claude-skills](https://github.com/rampstackco/claude-skills). The starter, SEO, and PM plugins are subsets of that catalog with no modifications to skill content.
 
 ## Related repos
 
